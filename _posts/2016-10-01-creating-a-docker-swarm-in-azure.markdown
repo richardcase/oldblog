@@ -10,7 +10,7 @@ A Swarm is a collection (cluster) of nodes running Docker Engine following a dec
 
 By using [Docker Machine](https://docs.docker.com/machine/) and the [Azure driver](https://docs.docker.com/machine/drivers/azure/), a Docker swarm can be easily created in Azure. This involves running a small number of Docker Machine commands to create the individual nodes of the Swarm. We can then run Docker CLI commands to create the swarm.
 
-# Requirments
+# Requirements
 
 The following requirements are needed to create a Docker swarm in Azure.
 
