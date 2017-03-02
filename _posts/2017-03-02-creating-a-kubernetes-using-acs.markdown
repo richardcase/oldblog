@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creating a Kubernetes using Azure Container Service"
+title: "Creating a Kubernetes cluster using Azure Container Service"
 date: 2017-03-02 12:00:00 +0100
 categories: docker azure acs kubernetes
 ---
