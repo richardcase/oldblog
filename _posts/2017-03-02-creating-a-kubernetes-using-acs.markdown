@@ -29,10 +29,11 @@ Creating a cluster is made up of a number of steps:
 
 ## Planning
 Like with the Docker Machine approach to creating a Docker Swam the first step is deciding how many *master* and *worker* nodes there will be.  Specific advice in relation to Kubernetes is hard to find in the official documentation but as a rough guide:
-**Type**|**Advice**
-  -------------|-------------
-  Worker|For production environments more than 1 node is recommended.
-  Master|For production environments more than 1 node is recommended.
+
+| Type   | Advice                                   |
+| ------ | ---------------------------------------- |
+| Worker | For production environments more than 1 node is recommended. |
+| Master | For production environments more than 1 node is recommended. |
 
 ##Cluster creation
 1) Create a resource group for your swarm:
