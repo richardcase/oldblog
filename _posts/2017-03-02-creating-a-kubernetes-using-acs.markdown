@@ -35,7 +35,7 @@ Like with the Docker Machine approach to creating a Docker Swam the first step i
 | Worker | For production environments more than 1 node is recommended. |
 | Master | For production environments more than 1 node is recommended. |
 
-##Cluster Creation
+## Cluster Creation
 1) Create a resource group for your swarm:
 ```bash
 az group create -n dockercoins -l "westeurope"
@@ -76,7 +76,7 @@ az acs kubernetes get-credentials --dns-prefix=rmc-dockercoins --location=westeu
 
 This will create the required configuration files in the C:\Users\\<user>\\.kube folder.
 
-##Validate the cluster
+## Validate the cluster
 1) To test communication with the cluster run the following command to get a list of the nodes in the cluster :
 ```bash
 kubectl get nodes
