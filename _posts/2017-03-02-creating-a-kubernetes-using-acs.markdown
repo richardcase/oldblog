@@ -20,7 +20,7 @@ az account show
 ```
 If you are not logged in follow the instructions [here](https://docs.microsoft.com/en-us/cli/azure/authenticate-azure-cli) to login. If you have multiple subscriptions follow the instructions [here](https://docs.microsoft.com/en-us/cli/azure/manage-azure-subscriptions-azure-cli) to set the default subscription to use.
 
-# Cluster Creation
+# Kubernetes Cluster Creation
 Creating a cluster is made up of a number of steps:
 
 * [Planning](#planning)
@@ -35,7 +35,7 @@ Like with the Docker Machine approach to creating a Docker Swam the first step i
 | Worker | For production environments more than 1 node is recommended. |
 | Master | For production environments more than 1 node is recommended. |
 
-##Cluster creation
+##Cluster Creation
 1) Create a resource group for your swarm:
 ```bash
 az group create -n dockercoins -l "westeurope"
