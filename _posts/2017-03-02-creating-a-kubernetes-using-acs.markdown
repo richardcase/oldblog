@@ -82,7 +82,7 @@ This will create the required configuration files in the C:\Users\\<user>\\.kube
 kubectl get nodes
 ```
 The output will show showing similar to the following:
-![fqdn](/images/swarmacs/getnodes.png)
+![get nodes](/images/swarmacs/getnodes.PNG)
 
 NOTE: The *master* node has a status of **SchedulingDisabled** which means that no pods will be scheduled on the node. This is recommended for production systems as the master nodes should only be used to administer and schedule work on the worker/agent nodes.
 
